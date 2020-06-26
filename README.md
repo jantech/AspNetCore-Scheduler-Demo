@@ -2,11 +2,14 @@
 
 ## How To Setup and Run scheduled background tasks in ASP.NET Core Web API
 
-1. Introduction to Run scheduled background tasks in ASP.NET Core
-2. Creating Background Service Setup
-3. Creating Schedule Processor using ncrontab
-4. Implementing Background tasks and Consume Scoped Services inside tasks
+1. Introduction to Run scheduled background tasks in ASP.NET Core [Part 1](https://youtu.be/AOxij6IdcoM)
+2. Creating Background Service Setup [Part 2](https://youtu.be/zc4ntIOnTRI)
+3. Creating Schedule Processor using ncrontab [Part 3](https://youtu.be/7Ff2Ehw7CBQ)
+4. Implementing Background tasks and Consume Scoped Services inside tasks [Part 4](https://youtu.be/TMpGU0aLRtU)
 
+## Youtube Video Tutorial
+
+[Full Playlist](https://www.youtube.com/playlist?list=PLYcXqt-xMVx92GswaOh9PDgb2RJcoNQin)
 
 
 ## Credits
