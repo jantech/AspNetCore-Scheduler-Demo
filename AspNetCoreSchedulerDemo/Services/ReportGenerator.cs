@@ -18,5 +18,17 @@ namespace AspNetCoreSchedulerDemo.Services
 
             return "GenerateDailyReport";
         }
+
+        public async Task GenerateDailyReportAsync()
+        {
+            Console.WriteLine("GenerateDailyReport : " + DateTime.Now.ToString());
+
+            // write your logic Async
+
+            await Task.Run(() =>
+            {
+                return true;
+            });
+        }
     }
 }

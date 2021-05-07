@@ -15,11 +15,16 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
 
         protected override string Schedule => "*/1 * * * *"; // every 1 min 
 
-        public override Task ProcessInScope(IServiceProvider scopeServiceProvider)
+        public override async Task ProcessInScope(IServiceProvider scopeServiceProvider)
         {
             Console.WriteLine("SampleTask1 : " + DateTime.Now.ToString());
 
-            return Task.CompletedTask;
+            // return Task.CompletedTask;
+
+
+            await Task.Run(() => {
+                return Task.CompletedTask;
+            });
         }
     }
 }

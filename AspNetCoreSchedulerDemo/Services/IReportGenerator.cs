@@ -8,5 +8,7 @@ namespace AspNetCoreSchedulerDemo.Services
     public interface IReportGenerator
     {
         string GenerateDailyReport();
+
+        Task GenerateDailyReportAsync();
     }
 }
