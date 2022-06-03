@@ -30,7 +30,7 @@ namespace AspNetCoreSchedulerDemo
             services.AddControllers();
 
             services.AddScoped<IReportGenerator, ReportGenerator>();
-            services.AddSingleton<IHostedService, SampleTask1>();
+            // services.AddSingleton<IHostedService, SampleTask1>();
             services.AddSingleton<IHostedService, SampleTask2>();
         }
 

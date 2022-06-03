@@ -22,7 +22,7 @@ namespace AspNetCoreSchedulerDemo.ScheduleTask
             Console.WriteLine("SampleTask2 : " + DateTime.Now.ToString());
 
             IReportGenerator reportGenerator = scopeServiceProvider.GetRequiredService<IReportGenerator>();
-            reportGenerator.GenerateDailyReport();
+            reportGenerator.GenerateDailyReportAsync();
 
             return Task.CompletedTask;
         }
